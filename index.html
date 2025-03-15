@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="gameOverAudio">
+        <source src="https://www.myinstants.com/media/sounds/you-lost-again-and-again.mp3" type="audio/mp3">
+    </audio>
+    
+    <h2>Snake Game</h2>
+    <p>Levels:</p>
+    <p><b>1:</b> Normal | <b>2:</b> Inverted & Flashing | <b>3:</b> Apple Runs | <b>4:</b> You Control Apple!</p>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <button onclick="startGame()">Start Game</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
